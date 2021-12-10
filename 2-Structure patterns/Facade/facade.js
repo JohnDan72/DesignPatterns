@@ -26,16 +26,21 @@ const get = url => new Promise((resolve, reject) => {
 
         res.on('end', d => {
             const parsed = JSON.parse(body);
-            console.log(parsed);
+            resolve(parsed);
+            
         });
     });
 
     req.on('error', e => {
-        console.error("Error: " + e)
+        reject(`Error: ${e}`)
     });
 
     req.end();
 });
 
 
-get('jsonplaceholder.typicode.com/users');
+const main = (async () => {
+    const resp = await get('jsonplaceholder.typicode.com/users');
+    console.log("response:");
+    console.log(resp)
+})()
