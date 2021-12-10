@@ -4,8 +4,6 @@
  * y el suscriptor
 */
 
-const { appendFile } = require("fs");
-
 const user = new User();
 
 const init = () => {
