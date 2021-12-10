@@ -1,0 +1,10 @@
+* Ayudan a crear de manera sencilla nuevos objetos
+
+* ejemplo crear un objeto 1:
+    const miObjeto = {}
+* ejemplo crear un objeto 2:
+
+    const miObjeto = {
+        prop: 'valor',
+        metodo: () => console.log('hacer algo')
+    }

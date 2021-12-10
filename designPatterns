@@ -1,0 +1,17 @@
+*Patrón de diseño
+    * Debe cumplir la regla de 3:
+        * Cumple con un objetivo
+        * Es útil
+        * Tiene una aplicación amplia
+
+* Si no cumple con alguna de las 3 es un antipatrón
+    * parece una solución correcta
+    * lección aprendida pero nos topamos con distintos problemas
+    * ejemplos: importar nuestros efectos dentro de los mismo archivos
+    * injectar es mejor
+
+* Tipos
+    * creationales: ayudan a crear objetos
+    * estructura: interfaz sencilla
+    * comportamiento: desacoplar código para tener código más limpio
+

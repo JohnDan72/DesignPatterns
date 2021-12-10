@@ -1,0 +1,26 @@
+* Constructor pattern:
+    
+    class MiClase{
+        constructor( p1 ){
+            this.propiedad = p1;
+            this.metodo = () => {
+                //soy un método
+            }
+        }
+    }
+
+    const instancia = new MiClase(4);
+    console.log( instancia );
+
+* Prototype constructor pattern:
+    * ventaja: menos memoria
+    * ej:
+
+    class MiClase{
+        constructor( p1 ){
+            this.propiedad = p1;
+        }
+        metodo(){
+            //soy un método
+        }
+    }
