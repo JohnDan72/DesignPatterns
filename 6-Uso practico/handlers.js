@@ -1,3 +1,4 @@
+// inyección de dependencias (dependency inyection)
 module.exports = resource => ({ axios }) => ({
     get: async ( req , res ) => {
         const { data } = await axios.get(`/${resource}`);
